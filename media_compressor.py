@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Media Compressor Suite - A PyQt5 GUI application for compressing videos and images
-Author: Cardiff (Cardsea)
+Author: Cardsea
 """
 
 import sys
@@ -690,7 +690,7 @@ class MediaCompressor(QMainWindow):
         self.init_ui()
         
     def init_ui(self):
-        self.setWindowTitle("Media Compressor Suite - by Cardiff")
+        self.setWindowTitle("Media Compressor Suite - by Cardsea")
         self.setGeometry(100, 100, 1000, 700)
         
         # Set dark theme
@@ -789,7 +789,7 @@ class MediaCompressor(QMainWindow):
         title_label.setFont(QFont("Arial", 20, QFont.Bold))
         layout.addWidget(title_label)
         
-        subtitle_label = QLabel("Professional video and image compression tools - by Cardiff (Cardsea)")
+        subtitle_label = QLabel("Professional video and image compression tools - by Cardsea")
         subtitle_label.setAlignment(Qt.AlignCenter)
         subtitle_label.setStyleSheet("color: #cccccc; margin-bottom: 20px;")
         layout.addWidget(subtitle_label)

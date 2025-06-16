@@ -114,6 +114,6 @@ The image compressor provides:
 - Try reducing quality setting for very large images
 - Ensure sufficient disk space for output files
 
-## Created by Cardiff (Cardsea)
+## Created by Cardsea
 
 Desktop companion to the Media Compressor Suite web application! 
